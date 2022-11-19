@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Noto+Serif:ital@1 & display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 28pt;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    color: black;
+  }
+  h2 {
+    
+    font-size: 20pt;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    color: black;
+  }
+  
+  p {
+  
+    font-family: 'Abril Fatface', cursiva;
+    position: relative;
+    color: linear-gradient(#dd86ff, #ffcdae);
+  }
+  
+  section.parrafo1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  body{
+    margin: 15px;
+    padding: 15px;
+    background-image: linear-gradient(to right,#343a40,#adb5bd) ;
+}
+
+.mvideo{
+    text-align: center;
+    
+}

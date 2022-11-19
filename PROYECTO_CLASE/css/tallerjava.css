@@ -1,0 +1,104 @@
+:link,:visited { text-decoration:none }  ul,ol { list-style:none } h3,h4,h5,h6,pre,code { font-size:1em; } ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input { margin:0; padding:0 }  address { font-style:normal }
+body { font: .95em Arial, Sans-Serif;  background: linear-gradient(45deg, #343a40 0%, #212529 100%);  background-attachment: fixed;  }
+a { color: #fdec02; text-decoration: underline; }
+p  { margin: 5px 0 15px; text-align:justify; color: rgb(0, 0, 0);}
+h1 { font: 5em Georgia; margin: 0 0 22px; color: rgb(253, 5, 5); text-align: center;}
+h1 a { color: rgb(255, 255, 255); }
+.clear { clear: both; }
+.wrap { margin: 25px auto; width: 880px;  }
+
+
+#left { 
+  padding-left: 10px;
+  border-radius: 30px; color:  rgb(16, 182, 65);
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ float: left; width: 650px; margin: 0 0 50px;margin-left: 300px; background-color: #ff8800;}
+#right { position: absolute; width: 350px; background: rgb(0, 0, 0, 0.198);;left:900px;  }
+	
+	
+	
+
+#footer { clear: both; border-top: 5px solid #323232; background: #3a3939  repeat-x bottom; color: #808080; padding: 10px 0; }
+	#footer ul { float: left; width: 200px; }
+	#footer li { padding: 5px 8px; background: url(.images/dot.gif) repeat-x bottom; }
+		#footer li a { color: #7a79cb; }
+		#footer li a:hover { color: #F5CFE1; }
+	#footer #col { float: right; width: 600px;   }
+
+	.video{
+		position: absolute;
+		left: 900px;
+		top: 137px;
+	}
+
+   
+
+    h3{
+        margin:0; padding:0;
+        
+    }
+
+    .fecha{
+        width: 650;
+        height: 400;
+    }
+    .login {
+        margin:0 auto;
+        max-width:500px;
+        
+      }
+      .login-form {
+        border:.5px solid rgb(251, 255, 0);
+        background-color:rgb(47, 53, 102);
+        border-radius:10px;
+        box-shadow:0px 0px 10px #000;
+      }
+      .login-header {
+        color:#fff;
+        text-align:center;
+        font-size:300%;
+      }
+
+    .login-form{
+        box-sizing:border-box;
+        padding-top:15px;
+          padding-bottom:10%;
+        margin:5% auto;
+        text-align:center;
+        
+    }
+    .login-form h3 {
+        text-align:left;
+        margin-left:40px;
+        color:#fff;
+      }
+      .login-form input[type="button"] {
+        height:30px;
+        width:100px;
+        background:rgb(255, 251, 0);
+        border:1px solid #000000;
+        border-radius:20px;
+        color: rgb(0, 0, 0);
+        text-transform:uppercase;
+        font-family: 'Ubuntu', sans-serif;
+        cursor:pointer;
+      }
+
+      .login-button {
+        margin-bottom:10px;
+      }
+     
+      .boton{
+        height:30px;
+        width:100px;
+        background:#3e7cb1;
+        border:1px solid #000000;
+        border-radius:20px;
+        color: rgb(0, 0, 0);
+        text-transform:uppercase;
+        font-family: 'Ubuntu', sans-serif;
+        cursor:pointer;
+
+      }

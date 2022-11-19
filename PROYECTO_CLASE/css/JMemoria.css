@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+}
+.tablero{
+    width: 650px;
+    height: 450px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:  space-between;
+    text-align: center;
+    background-color: blue;
+    border-radius: 25px;
+    color: coral;
+}
+.ETitulo{
+background-color: slateblue;
+margin: 15px;
+padding: 5px;
+border-radius: 25px;
+}
+.Titulo{
+    font-size: 42px;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.button{
+    width: 150px;
+    background-color: brown;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    color: aqua;
+}
+.button:hover{
+    background-color: crimson;
+    color: blue;
+}
+.celda{
+    width: 110px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: chartreuse;
+    border-radius: 25px;
+}
+.celda:hover{
+    background-color: green;
+}
+.IMG{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2? family= Lobster & family= Teko:wght@600 & display=swap');
+
+body{
+    background: white;
+    margin: 15px;
+    padding: 15px;
+}
+.encabezador{
+    height: 280px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    
+}
+
+.textencabezado{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        color: aliceblue;
+        margin: 20px;
+}
+.textencabezado2{
+    text-align: justify;
+    font-size: 35pt;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    margin: 20px;
+}
+.textencabezado3{
+    font-size: 15pt;
+    text-align: justify;
+    position: initial;
+}
+
+.tituloencabezado{
+    text-align: justify;
+    font-size: 50pt;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    margin: 5px;
+}
+.ImgPRIN{
+    margin: 15px;
+    color: black;
+    object-fit: cover;
+    padding-bottom: 18x;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    
+}
+.iconos{   
+    color: black;
+    object-fit: cover;
+    padding-bottom: 18x;
+    border-radius: 60%;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    
+}

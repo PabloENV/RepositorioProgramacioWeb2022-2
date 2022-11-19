@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Noto+Serif:ital@1 & display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 28pt;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    color: black;
+  }
+
+h2 {
+  
+  font-size: 20pt;
+  font-family: 'Noto Serif', serif;
+  position: relative;
+  color: black;
+}
+
+p {
+
+  font-family: 'Abril Fatface', cursiva;
+  position: relative;
+  color: linear-gradient(#dd86ff, #ffcdae);
+}
+body{
+    margin: 15px;
+    padding: 15px;
+    background-image: linear-gradient(to right,#343a40,#adb5bd) ;
+}

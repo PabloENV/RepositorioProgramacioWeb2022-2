@@ -1,0 +1,412 @@
+.ficha {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "encabezado-ficha"
+      "actividades-ficha"
+      "estados-ficha";
+    width: 400px;
+    height: 830px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 10px;
+  }
+  body {
+    margin: 10px;
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, #adb5bd 0%, #6c757d 100%);
+    } 
+  img {
+    width: 100%;
+    padding-top: 5px;
+  }
+  
+  .encabezado-ficha {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nombre-estudiante nombre-estudiante fotografia"
+      "enlaces enlaces fotografia";
+    grid-area: encabezado-ficha;
+    border-radius: 5px;
+    background-color: #161a1d;
+    padding-bottom: 10px;
+  }
+  
+  .nombre-estudiante {
+    font-weight: bold;
+    font-family: "Imprima", sans-serif;
+    color: #a4161a;
+    grid-area: nombre-estudiante;
+    font-size: 40px;
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  
+  }
+  
+  p {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  
+  
+  
+  .letra{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+  .estadoui  p2{
+    padding-right: 4px;
+  }
+  
+  .estadojs p2{
+    padding-right: 4px;
+  }
+  
+  .enlaces {
+    grid-area: enlaces;
+    background-color: #6c757d;
+    border-radius: 7%;
+    width: 230px;
+    padding-left: 0px;
+    border-left-width: 20px;
+    margin-left: 10px;
+   bottom: 10px;
+  }
+  
+  .fotografia {
+    justify-self: center;
+    align-self: center;
+    grid-area: fotografia;
+    padding-right: 5px;
+  }
+  .foto {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  main {
+    margin: 0 auto;
+    background-color: #212529;
+    width: 400px;
+    height: 830px;
+    padding-right: 30px;
+    border-radius: 20px;
+  }
+  .actividades-ficha {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "titulo-actividades"
+      "encabezado-actividades"
+      "estado-actividades";
+    grid-area: actividades-ficha;
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 270px;
+    margin-bottom: 10px;
+  }
+  
+  .titulo-actividades {
+    justify-self: center;
+    align-self: center;
+    grid-area: titulo-actividades;
+    font-weight: bold;
+    font-family: "Imprima", sans-serif;
+    color: #a4161a;
+    grid-area: nombre-estudiante;
+    font-size: 40px;
+  }
+  
+  .encabezado-actividades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "item nombre estadouiux estadodev";
+    grid-area: encabezado-actividades;
+    padding-top: 60px;
+  
+  }
+  
+  .item {
+    grid-area: item;
+  }
+  
+  .nombre {
+    grid-area: nombre;
+  }
+  
+  .estadouiux {
+    grid-area: estadouiux;
+  }
+  
+  .estadodev {
+    grid-area: estadodev;
+  }
+  
+  .estado-actividades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nro enlace porcentajeuiux porcentajedev";
+    grid-area: estado-actividades;
+    padding-top: 10px;
+    border-style: dotted;
+  }
+  
+  .nro {
+    grid-area: nro;
+  }
+  
+  .enlace {
+    grid-area: enlace;
+  }
+  
+  .porcentajeuiux {
+    grid-area: porcentajeuiux;
+  }
+  
+  .porcentajedev {
+    grid-area: porcentajedev;
+  }
+  
+  .estados-ficha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "estadohtml estadocss estadojs estadoui estadoux total";
+    grid-area: estados-ficha;
+    background-color: #6c757d;
+    border-radius: 5px;
+    height: 150px;
+  }
+  
+  p1 {
+    font-weight: bold;
+    font-family: "Imprima", sans-serif;
+    font-size: 20px;
+  }
+  
+  .estadohtml {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadohtml;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;
+    font-weight: bold;
+  }
+  
+  .estadocss {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadocss;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;;
+    font-weight: bold;
+  }
+  
+  .estadojs {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadojs;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;;
+    font-weight: bold;
+  }
+  
+  .estadoui {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadoui;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;;
+    font-weight: bold;
+  }
+  
+  .estadoux {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadoux;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;;
+    font-weight: bold;
+  }
+  
+  .total {
+    justify-self: center;
+    align-self: center;
+    grid-area: total;
+    border-radius: 50%;
+    height: 90px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3f37c9;;
+    font-weight: bold;
+  }
+  
+  /*RESPONSIVE CELULAR*/
+  @media (max-width: 420px) {
+    main {
+      width: 360px;
+      height: 640px;
+    }
+  
+  
+
+  
+    .ficha {
+      width: 360px;
+      height: 640px;
+      padding-left: 10px;
+      padding-top: 10px;
+      width: 60%;
+    }
+  
+    .fotografia {
+      width: 130%;
+      padding-right: 40px;
+    }
+  
+    .encabezado-ficha {
+      height: 250px;
+      width: 360px;
+    }
+  
+    .nombre-estudiante {
+      font-size: 25px;
+      padding-top: 20px;
+      height: 10px;
+      width: 250px;
+    }
+  
+    .enlaces {
+      width: 200px;
+      height: 190px;
+      margin-top: 10px;
+    }
+    p {
+      margin-top: 7px;
+      font-size: 20px;
+    }
+   
+  
+    .actividades-ficha {
+      height: 200px;
+      width: 360px;
+   
+    }
+  
+    div .item p1 {
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 30px;
+    }
+    div .nombre p1 {
+      padding-right: 10px;
+      width: 20px;
+    }
+  
+    p1 {
+      font-size: 20px;
+    }
+  
+    .porcentajeuiux {
+      padding-right: 30px;
+    }
+  
+    .porcentajedev {
+      padding-right: 30px;
+    }
+  
+    .enlace {
+      padding-right: 20px;
+      width: 130px;
+    }
+  
+    .titulo-actividades{
+      margin-top: 10px;
+    }
+  
+    .encabezado-actividades{
+      padding-top: 30px;
+    }
+  
+  
+    .estados-ficha {
+      height: 130px;
+      width: 360px;
+    }
+  
+    p2 {
+      font-size: 15px;
+    }
+  
+    .estadohtml {
+      width: 60px;
+      height: 110px;
+    }
+  
+    .estadocss {
+      width: 60px;
+      height: 110px;
+    }
+    .estadojs {
+      width: 60px;
+      height: 110px;
+    }
+    .estadoui {
+      width: 60px;
+      height: 110px;
+    }
+    .estadoux {
+      width: 60px;
+      height: 110px;
+    }
+    .total {
+      width: 60px;
+      height: 110px;
+    }
+  
+  }
